@@ -1,5 +1,5 @@
 const mongoose =require("mongoose");
-mongoose.connect("mongodb://127.0.0.1:27017/youtubeRegistration",{
+mongoose.connect("mongodb+srv://suthararvindjlr757:h44t6g6r7@cluster0.b6uhyf9.mongodb.net/",{
 
 }).then(()=>{
     console.group(`connection successful`);
